@@ -1,0 +1,87 @@
+{
+  "manifest": [
+    {
+      "relative_path": "baremetal_cli.py",
+      "sha256": "1bf84b750a4ee279db9347a9998d0dccbfde2b934d6eddfb8e86f3db61cf8540",
+      "size_bytes": 12359
+    },
+    {
+      "relative_path": "core/__init__.py",
+      "sha256": "2ff26810338a654830fc4c913c3c33112472c63ef91636f1f0381a4ceb16c4cd",
+      "size_bytes": 949
+    },
+    {
+      "relative_path": "core/bounds.py",
+      "sha256": "8b5470808d5112b6c48b6312d7d11a14f7064e6bbcfca2a46d47d825b01c5b42",
+      "size_bytes": 5049
+    },
+    {
+      "relative_path": "core/hasher.py",
+      "sha256": "b0ff09c5aeeb6f698d174e003fd051476342226337e2f85f3900cb92c33e2bcb",
+      "size_bytes": 6700
+    },
+    {
+      "relative_path": "core/validator.py",
+      "sha256": "4f8f2d61cb40d119e2c96efce02e831e7ed130b3be64f6f9186e42e1ad894786",
+      "size_bytes": 1438
+    },
+    {
+      "relative_path": "pipeline/__init__.py",
+      "sha256": "e654a6ef0066ff353cbf2eb00c0145620cc2dc84f3679903673c0139af8eb3fc",
+      "size_bytes": 426
+    },
+    {
+      "relative_path": "pipeline/auditor.py",
+      "sha256": "da709ccfbaa38951db2ff3b0b601bc9c754e126eb3aa16aefa22eee0e7da7370",
+      "size_bytes": 3370
+    },
+    {
+      "relative_path": "pipeline/compiler.py",
+      "sha256": "c7dcf36ae0ec5ad9b56c68f5fc23238d2e87d0d47487f46337e75b33020a3fa2",
+      "size_bytes": 4740
+    },
+    {
+      "relative_path": "pipeline/quarantine.py",
+      "sha256": "26cc0f28fd790dad06d180be996a3e3472265aabaced4d8996dd5592b7cb7568",
+      "size_bytes": 6004
+    },
+    {
+      "relative_path": "run_invariant_gate.ps1",
+      "sha256": "dc76632c088ec5a0da075b8d2536b6fd9aa5ff232e5b2e8a66061b312a4d7cdb",
+      "size_bytes": 6868
+    },
+    {
+      "relative_path": "runtime/__init__.py",
+      "sha256": "806341d84267ebf7cee551fc36fc4075d3f57b2c4c65e75e5fdaa3c170946c0c",
+      "size_bytes": 370
+    },
+    {
+      "relative_path": "runtime/path_guard.py",
+      "sha256": "4e16f399d409816e611aa493eef14a74b61ba165de979cb526967e7e81c6bff9",
+      "size_bytes": 2506
+    },
+    {
+      "relative_path": "runtime/process_guard.py",
+      "sha256": "8ac36bbf1e7d7d7514251fbaf34983c3f9fcbdf87ae3f6b6148ec2c29b02ac03",
+      "size_bytes": 2838
+    },
+    {
+      "relative_path": "runtime/sentinel.py",
+      "sha256": "38f60dc3805ff9e96ab19ecd2f5f43348b9bebcc91198d9bc2130e8a9eb27fc2",
+      "size_bytes": 7078
+    },
+    {
+      "relative_path": "tests/test_hashes.py",
+      "sha256": "c8d402d243447c09bcc022aa5731af92e2347752f0aab0e6c64390436ee2ef57",
+      "size_bytes": 2214
+    },
+    {
+      "relative_path": "tests/test_invariants.py",
+      "sha256": "71e89111b76f23fe8bd1c52a512da7960602e82604be8af00dce9cd1ab9d14a2",
+      "size_bytes": 8191
+    }
+  ],
+  "total_files": 16,
+  "tree_root_sha256": "f641ede7b494641ee9ed3130bcdec830be707abd23df28683be0eacd1d42a258",
+  "workspace_root": "B:\\Github_Tool_Bench\\invariant-engine"
+}

@@ -1,9 +1,29 @@
 {
   "manifest": [
     {
+      "relative_path": ".github/workflows/ci.yml",
+      "sha256": "fe0df9459c4eda8a5c289eb1a63f57d054fddd0a29801d0a9a5f8d7653d0a6d6",
+      "size_bytes": 740
+    },
+    {
+      "relative_path": ".gitignore",
+      "sha256": "10ed4d87b9f52a85cace72ccfe6a38bcc100be792a6ec9abbe6250869a5c0a1d",
+      "size_bytes": 50
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "289ac43fefef69de4c21a585af75f16d9296dee484cf05820b9aba504cbc78b1",
+      "size_bytes": 2034
+    },
+    {
       "relative_path": "baremetal_cli.py",
       "sha256": "1bf84b750a4ee279db9347a9998d0dccbfde2b934d6eddfb8e86f3db61cf8540",
       "size_bytes": 12359
+    },
+    {
+      "relative_path": "baseline.json",
+      "sha256": "fc1f9cb886b00fa92d7518ed80f15131f375bec87749abb756593861cd554a6b",
+      "size_bytes": 2971
     },
     {
       "relative_path": "core/__init__.py",
@@ -24,6 +44,11 @@
       "relative_path": "core/validator.py",
       "sha256": "4f8f2d61cb40d119e2c96efce02e831e7ed130b3be64f6f9186e42e1ad894786",
       "size_bytes": 1438
+    },
+    {
+      "relative_path": "pipeline/Invariant engine.md",
+      "sha256": "178397b5f195a44d663605b002123eaf4331740fc5915923e519dfb69d6be36b",
+      "size_bytes": 2011
     },
     {
       "relative_path": "pipeline/__init__.py",
@@ -81,7 +106,7 @@
       "size_bytes": 8191
     }
   ],
-  "total_files": 16,
-  "tree_root_sha256": "f641ede7b494641ee9ed3130bcdec830be707abd23df28683be0eacd1d42a258",
+  "total_files": 21,
+  "tree_root_sha256": "f12e071223d7703ea4c8b636be14b01c625e7059dd5be81a0874a1b57270dc56",
   "workspace_root": "B:\\Github_Tool_Bench\\invariant-engine"
 }

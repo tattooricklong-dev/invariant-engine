@@ -119,7 +119,7 @@ class DirectoryReconciler:
         )
 
     def generate_manifest(self, ignore_patterns: Optional[Sequence[str]] = None) -> List[FileManifestRecord]:
-        ignore_set = set(ignore_patterns or [".git", "__pycache__", ".pytest_cache"])
+        ignore_set = set(ignore_patterns or [".git", "__pycache__", ".pytest_cache", "baseline.json"])
         records: List[FileManifestRecord] = []
         all_paths: List[Path] = []
 

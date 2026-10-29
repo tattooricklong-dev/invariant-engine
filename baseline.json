@@ -21,11 +21,6 @@
       "size_bytes": 12359
     },
     {
-      "relative_path": "baseline.json",
-      "sha256": "2c442637ed9b90a46da1e912de9de35a6415bc3b9b79f9e29efbccd1a70636e6",
-      "size_bytes": 3822
-    },
-    {
       "relative_path": "core/__init__.py",
       "sha256": "2ff26810338a654830fc4c913c3c33112472c63ef91636f1f0381a4ceb16c4cd",
       "size_bytes": 949
@@ -37,8 +32,8 @@
     },
     {
       "relative_path": "core/hasher.py",
-      "sha256": "b0ff09c5aeeb6f698d174e003fd051476342226337e2f85f3900cb92c33e2bcb",
-      "size_bytes": 6700
+      "sha256": "5cabdde2d57ca29bd776d5ae17a53f60cdd81e450eed4f1ae4d602e5e2f265f6",
+      "size_bytes": 6906
     },
     {
       "relative_path": "core/validator.py",
@@ -106,7 +101,7 @@
       "size_bytes": 8191
     }
   ],
-  "total_files": 21,
-  "tree_root_sha256": "d5fa0c463f49130f75d482cd18a6865b836b61c35da9b79c67acc68f3a0d85b0",
+  "total_files": 20,
+  "tree_root_sha256": "15afd66cce221cd6ae2797d764d3951f05d802a5559fc4900394357cbb0466f8",
   "workspace_root": "B:\\Github_Tool_Bench\\invariant-engine"
 }

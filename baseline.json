@@ -1,11 +1,6 @@
 {
   "manifest": [
     {
-      "relative_path": ".github/workflows/ci.yml",
-      "sha256": "b91c518550e111d479f0c1333221e1b05730efa2eb13d6cfddd9d28f505146d3",
-      "size_bytes": 568
-    },
-    {
       "relative_path": ".gitignore",
       "sha256": "10ed4d87b9f52a85cace72ccfe6a38bcc100be792a6ec9abbe6250869a5c0a1d",
       "size_bytes": 50
@@ -101,7 +96,7 @@
       "size_bytes": 8191
     }
   ],
-  "total_files": 20,
-  "tree_root_sha256": "15afd66cce221cd6ae2797d764d3951f05d802a5559fc4900394357cbb0466f8",
+  "total_files": 19,
+  "tree_root_sha256": "ea1c97cb784878e937082da629db31ccf239dea628704a403e49815f0d319e65",
   "workspace_root": "B:\\Github_Tool_Bench\\invariant-engine"
 }

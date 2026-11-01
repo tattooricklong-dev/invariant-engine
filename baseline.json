@@ -1,6 +1,11 @@
 {
   "manifest": [
     {
+      "relative_path": ".github/workflows/python-app.yml",
+      "sha256": "f078df1ce7ac59a8d0c226a324fc001809a088385dc7b02fa7aee953a1cf4844",
+      "size_bytes": 1225
+    },
+    {
       "relative_path": ".gitignore",
       "sha256": "10ed4d87b9f52a85cace72ccfe6a38bcc100be792a6ec9abbe6250869a5c0a1d",
       "size_bytes": 50
@@ -17,8 +22,13 @@
     },
     {
       "relative_path": "codifier_engine.py",
-      "sha256": "22f38e2cda1929dc3534377fef1ece53697380282a1ec5f2f562ab5dc7498563",
-      "size_bytes": 25127
+      "sha256": "0974ed46dcd7f5e839b99ec7b4c8bca51b617e56fe59948124a2b9208091daa0",
+      "size_bytes": 25704
+    },
+    {
+      "relative_path": "conftest.py",
+      "sha256": "dae54a8b9e2e10d0a61c1e277745108f94123db206762836467e11ab80f39e79",
+      "size_bytes": 163
     },
     {
       "relative_path": "core/__init__.py",
@@ -66,6 +76,11 @@
       "size_bytes": 6004
     },
     {
+      "relative_path": "pytest.ini",
+      "sha256": "0e6875a9a85c10c54f81fe5fdb2f2f7c84692c3450bf04100327043569343aab",
+      "size_bytes": 43
+    },
+    {
       "relative_path": "run_invariant_gate.ps1",
       "sha256": "8f6cc1d199e901afc61e66f236d41c41d0b1750079c5562582e2440800d26211",
       "size_bytes": 7010
@@ -106,7 +121,7 @@
       "size_bytes": 8191
     }
   ],
-  "total_files": 21,
-  "tree_root_sha256": "f1b3c6ec51ab9564728ca3cd6f9a2f74cc4cae402d428aa677d8607fb9a55bfb",
+  "total_files": 24,
+  "tree_root_sha256": "b90a640f86a8e0e98f2ccd3bfd158b2f26337adb3366af2c0ad3a316d3204900",
   "workspace_root": "B:\\Github_Tool_Bench\\invariant-engine"
 }

@@ -39,8 +39,7 @@ def handle_reconcile(args: argparse.Namespace) -> int:
     workspace_root = Path(args.workspace).resolve()
     sanitizer = PathSanitizer(workspace_root)
     sanitizer.validate_safe_path(workspace_root, must_exist=True)
-
-    ignore_patterns = args.ignore.split(",") if args.ignore else [".git", "__pycache__", ".pytest_cache"]
+    ignore_patterns = [".git", "__pycache__", ".pytest_cache", "baseline.json"]
     reconciler = DirectoryReconciler(workspace_root, chunk_size=args.chunk_size)
     manifest = reconciler.generate_manifest(ignore_patterns=ignore_patterns)
     root_hash = reconciler.compute_root_hash(manifest)

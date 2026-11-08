@@ -2,8 +2,8 @@
   "manifest": [
     {
       "relative_path": ".github/workflows/python-app.yml",
-      "sha256": "f078df1ce7ac59a8d0c226a324fc001809a088385dc7b02fa7aee953a1cf4844",
-      "size_bytes": 1225
+      "sha256": "063ec548ecc2521eb73eadfa31d3816810860ae2065322eed7ab54b3a1bb4d71",
+      "size_bytes": 463
     },
     {
       "relative_path": ".gitignore",
@@ -17,8 +17,8 @@
     },
     {
       "relative_path": "baremetal_cli.py",
-      "sha256": "1bf84b750a4ee279db9347a9998d0dccbfde2b934d6eddfb8e86f3db61cf8540",
-      "size_bytes": 12359
+      "sha256": "3da262f1c7eb1929b8fa31cdf876d3bb7a5801cb7100605ccb0ccdfa47ad1776",
+      "size_bytes": 12332
     },
     {
       "relative_path": "codifier_engine.py",
@@ -49,6 +49,11 @@
       "relative_path": "core/validator.py",
       "sha256": "4f8f2d61cb40d119e2c96efce02e831e7ed130b3be64f6f9186e42e1ad894786",
       "size_bytes": 1438
+    },
+    {
+      "relative_path": "iron_supervisor_v2.py",
+      "sha256": "2f1c9c04469a5517e24993618f6d4770b257a1edc3f836a1e74056db3549da4f",
+      "size_bytes": 9640
     },
     {
       "relative_path": "pipeline/Invariant engine.md",
@@ -121,7 +126,7 @@
       "size_bytes": 8191
     }
   ],
-  "total_files": 24,
-  "tree_root_sha256": "b90a640f86a8e0e98f2ccd3bfd158b2f26337adb3366af2c0ad3a316d3204900",
+  "total_files": 25,
+  "tree_root_sha256": "231fce8aab72cfbf4194ae86420c848f109e10556620f1f7fa2878c77f2c6427",
   "workspace_root": "B:\\Github_Tool_Bench\\invariant-engine"
 }
